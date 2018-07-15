@@ -14195,7 +14195,7 @@ The 1st and 2nd sample points are predicted to be in the supermarket segment. It
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> Changing the delivery service from 5 days a week to 3 days a week will likely affect negatively all the customer segments, since all clusters have significant expense in Fresh category. If the wholesale distributor insists in running a small A/B test then my recommendation would be to first try with Grocery group (segment 2) since their expenses are much lower than the average and they tend to not buy that much of Fresh products as the Supermarket and Greengrocery groups (segments 0 and 1).</p>
+<p><strong>Answer:</strong> Changing the delivery service from 5 days a week to 3 days a week will likely affect negatively all the customer segments, since all clusters have significant expense in Fresh category. However, the negative effect will not be similar thought the segments since Fresh have higher presence for "Supermarket" segment, medium presence for "Greengrocery" segment and lower presence for "Convenience" segment. Therefore, if the wholesale distributor insists in running a small A/B test then my recommendation would be to first try with Grocery group (segment 2) only since their overall expenses are much lower than the average and they tend to not buy that much of Fresh products as the Supermarket and Greengrocery groups (segments 0 and 1).</p>
 
 </div>
 </div>
@@ -14285,10 +14285,10 @@ The 1st and 2nd sample points are predicted to be in the supermarket segment. It
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> The obtained clustering algorithm is not a very good match with the HoReCa/Retail classification because:</p>
+<p><strong>Answer:</strong> The obtained clustering algorithm is not terribly different than the HoReCa/Retail classification since both have a vertical line border between the clusters. However, they are not a very good match either because:</p>
 <ul>
-<li>the last classification has 2 clusters instead of the previous 3; and</li>
-<li>the HoReCa/Retail clusters are easily separated by a vertical line around dimension1 = 1 , but the 0/1 clusters should be separated by a vertical line around dimension 1 = 0.</li>
+<li>the HoReCa/Retail classification has 2 clusters instead of the unsupervised 3; and</li>
+<li>the HoReCa/Retail clusters are easily separated by a vertical line around dimension1 = 1 , but the 0/1 clusters should be better separated by a vertical line around dimension 1 = 0.</li>
 </ul>
 
 </div>
